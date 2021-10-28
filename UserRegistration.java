@@ -3,9 +3,8 @@ package UserRegistration;
 import java.util.regex.Pattern;
 
 public class UserRegistration {
-	public boolean email() {
-		boolean matchesString = Pattern.matches("^[A-Za-z._]+[@]{1}[a-zA-Z]+[.a-z]{4}([.a-zA-Z]{3})*$",
-				"rahullabade05@gmail.com");
+	public boolean phoneNumber() {
+		boolean matchesString = Pattern.matches("^[0-9]{2}[ ][789]{1}[0-9]{9}$", "91 8390970946");
 		return matchesString;
 	}
 }

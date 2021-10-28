@@ -1,4 +1,5 @@
 package UserRegistration;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
 
@@ -8,7 +9,7 @@ public class UserRegistrationTest {
 	@Test
 	public void givenFirstNameWhenShouldReturnTrue() {
 		UserRegistration userRegistration = new UserRegistration();
-		boolean userTest = userRegistration.email();
+		boolean userTest = userRegistration.phoneNumber();
 		Assert.assertTrue(userTest);
 	}
 }

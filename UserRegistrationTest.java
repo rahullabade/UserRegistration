@@ -8,7 +8,7 @@ public class UserRegistrationTest {
 	@Test
 	public void givenFirstNameWhenShouldReturnTrue() {
 		UserRegistration userRegistration = new UserRegistration();
-		boolean userTest = userRegistration.lastName();
+		boolean userTest = userRegistration.email();
 		Assert.assertTrue(userTest);
 	}
 }

@@ -3,8 +3,8 @@ package UserRegistration;
 import java.util.regex.Pattern;
 
 public class UserRegistration {
-	public boolean phoneNumber() {
-		boolean matchesString = Pattern.matches("^[0-9]{2}[ ][789]{1}[0-9]{9}$", "91 8390970946");
+	public boolean password() {
+		boolean matchesString = Pattern.matches("^[a-z]{5}$", "rahul");
 		return matchesString;
 	}
 }

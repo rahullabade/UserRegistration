@@ -9,7 +9,7 @@ public class UserRegistrationTest {
 	@Test
 	public void givenFirstNameWhenShouldReturnTrue() {
 		UserRegistration userRegistration = new UserRegistration();
-		boolean userTest = userRegistration.password();
+		boolean userTest = userRegistration.passwordUpperCase();
 		Assert.assertTrue(userTest);
 	}
 }
